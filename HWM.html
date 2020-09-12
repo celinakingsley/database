@@ -1,0 +1,39 @@
+ <html>
+<head>
+<link rel="stylesheet" href="HWM.css" type="text/css"/>
+<title>Hospital Management</title>
+</head>
+<body>
+<h1><center>PATIENT RECORD FORM</center></h1>
+<br>
+<form> 
+PATIENT NAME: <input type="text"> <br><br>
+DOCTOR'S NAME: <input type="text"> <br><br>
+DATE: <input type="date"> <br><br>
+GENDER: <input type="text"> <br><br>
+AGE: <input type="number"> <br><br>
+HEIGHT & WEIGHT: <input type="number"> <br><br>
+SPECIALITY : <select name="dropdown">
+<option value="cardiology">Cardiology</option>
+<option value="general">General</option>
+<option value="paediatrics">Paediatrics</option>
+<option value="oncology">Oncology</option>
+<option value="gynacology">Gynacology</option>
+</select>
+<br><br>
+PATIENT STATUS: <select name="dropdown">
+<option value="in"> In-Patient </option>
+<option value="out"> Out-Patient </option>
+</select><br> <br>
+PATIENT'S PROBLEMS:<br><br><textarea id="prob" name="problem" placeholder="Enter here..."></textarea>
+<br><br>
+PRESCRIPTION: <input type="text"> <br><br>
+SURGERY: <input type="radio" value="yes"> YES
+         <input type="radio" value="no"> NO
+<br><br>
+NEXT VISIT: <input type="date">
+<br> <br>
+<input type="submit" value="Submit">
+</form>
+</body>
+</html>
